@@ -37,10 +37,7 @@ public class SpotifyLikeAppExampleCode {
 
     */
 
-  private static String directoryPath =
-    "C:/Users/jerom/Documents/GitHub/class-java/spotify-like-app2/demo/src/main/java/com/example/";
-
-  // "main" makes this class a java app that can be executed
+  private static String directoryPath = "/Users/jovandelgado/Documents/GitHub/spotify-like-app/birthday-app/";// "main" makes this class a java app that can be executed
   public static void main(final String[] args) {
     // reading audio library from json file
     Song[] library = readAudioLibrary();
